@@ -82,7 +82,7 @@
 	div.slider {
 		padding-top: 35%;
 		//border:1px solid black;
-		background: url("./images/06.jpg") no-repeat;
+		background: url("./images/tkkr/06.jpg") no-repeat;
 		background-size: cover;
 		//background-position: ;
 
@@ -387,7 +387,7 @@
 	 	-webkit-filter: grayscale(100%); 
     	filter: grayscale(100%);} 
 	div.e { 
-		background: url("images/social/tkkr/04.jpg") no-repeat;
+		background: url("images/tkkr/04.jpg") no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
