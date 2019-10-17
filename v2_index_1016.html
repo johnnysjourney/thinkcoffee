@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>띵크커피 코리아 Think Coffee Korea</title>
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<!----image slider------>
+<link rel="stylesheet" href="./main.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+    	/*
+   		 $('.slider').bxSlider({
+   			auto: true,
+    		speed: 500,
+    		mode: 'fade'
+    		//adaptiveHeight:true
+		
+    	});*/
+    	$(".square").hide();
+		$(window).scroll(function(){
+  		var scroll = $(window).scrollTop();
+	  	if (scroll > 150) {
+	    	$("#main").addClass('navBg');
+	    	$(".circle").hide();
+	    	$(".square").show();
+	    	$('.main_menu>a').css("color","#999");
+	    	$('.main_menu>a').hover(function() {
+			$(this).css("color", "#97c0e6"); 
+			}, function() {
+			$(this).css("color", "#999"); 
+			})
+	  	} else {
+		  $("#main").removeClass('navBg');
+		  $(".circle").show();
+		  $(".square").hide();
+		  //$('.main_menu>a').css("color","#000");
+		  /*$('.main_menu>a').hover(function() {
+			$(this).css("color", "#97c0e6"); 
+			}, function() {
+			$(this).css("color", "#000"); 
+			}); */
+			}
+ 		});
+
+ 		/*$('.main_menu>a').hover(function() {
+			$(this).css("color", "#97c0e6"); 
+			}, function() {
+			$(this).css("color", "#333"); 
+		}); */
+
+
+
+
+	
+
+});//end
+</script>
+
+</head>
+
+<body>
+<div id="wrap">	
+<!--main logo & GNB-->
+	<div id="main">
+		<div id="main_logo"><a href="#"><img class="circle" src="images/logo/THINK_logo.png" alt="mainLogo" /><img class="square" src="images/logo/think-linear.png" alt="subLogo" /></a></div>
+		<ul id="nav">
+			<li class="main_menu"><a href="#">think coffee</a></li>
+			<li class="main_menu"><a href="#">menu</a></li>
+			<li class="main_menu"><a href="#">social impact</a></li>
+			<li class="main_menu"><a href="#">location</a></li>
+			<li class="main_menu"><a href="#">contact us</a></li>
+		</ul>
+
+	</div>	
+<!------img slider-------->
+	<div class="slider">
+		<!--img src="images/slide/01_1.jpg" alt="background img"/>
+		<img src="images/slide/02_1.jpg"  alt="background img"/>
+		<img src="images/slide/03_1.jpg" alt="background img"/>
+		<img src="images/slide/04_1.jpg"  alt="background img"/ -->
+		
+	</div>
+
+<!------container-------->
+	<div id="container">
+<!------slogan-------->
+		<div class="contents js">
+			<div class="slogan_text"><P>"우리의 사명은 가능한 최고의 커피를 공급하고, 로스팅 및 제공하는 한편, 모든 이해관계자들의 세상을 조금 더 좋게 만드는 것입니다."<p class="jason">-Jason Scherr, 설립자</p></p></div>
+			<div class="bg_text">“OUR MISSION IS TO SOURCE, ROAST AND SERVE THE BEST COFFEE POSSIBLE AND, ALONG THE WAY, MAKE THE WORLD A LITTLE BETTER FOR ALL OF OUR STAKEHOLDERS.”</div>
+		</div>
+<!------parallex-------->
+		<div class="contents slogan">	
+			<div class="slogan-parallex">
+				<h3>띵크커피는 대규모 타 프랜차이즈와는 달리 제 3세계 농민을 착취하지 않고 정당한 이윤을 분배하여 생산된 곳의 원두만을 사용합니다.</h3>
+			</div>
+		</div>
+
+
+<!------fair trade coffee-------->
+		<div class="fair">
+			<h3 class="sub_title ">what is fair trade?</h3>
+			<div class="ft">
+				<img class="ft_img img3" src="images/fairtrade/19.jpg" alt="공정무역커피" />
+				<div class="ft_article ft_1">
+					<div class="ft_image">
+						<div class="fairTrade img1"></div>
+						<div class="fairTrade img2"></div>
+						<div class="fairTrade img3"></div>
+
+
+						<img class="ft_img img1" src="images/fairtrade/20.jpg" alt="공정무역커피" />
+						<img class="ft_img img2" src="images/fairtrade/24.jpg" alt="공정무역커피" />
+						
+					</div>
+				</div>
+				
+
+				<div class="ft_article ft_2">
+					<div class="part1">
+						<h4 class="ft_right">커피농가를 <span class="ft_think">생각하는</span> <p><span class="ft_think">올바른</span> 공정무역</p></span></h4>
+					</div>
+
+					<div class="part2">
+						<span><p>띵크커피는 투명한 거래를 위해 커피농장에 정당한 이윤 분배로 원두를 조달하고 있습니다.</p><p>또한 커피 농가를 직접 컨택해 거래를 하고 있으며, 농가가 위치한 지역과 커뮤니케이션에 집중해 다양한 프로젝트를 진행하고 있습니다.</p></span>
+					</div>
+
+					<div class="part3">
+						<h4 class="ft_right">생각하는 커피</h4>
+					</div>
+					<div class="part4">
+						<span class="ft_think"><b>환경</b></span>을 생각하는 커피<br/>
+						<span class="ft_think"><b>커피농가</b></span>를 생각하는 커피<br/>
+						<span class="ft_think"><b>이웃</b></span>을 생각하는 커피<br/>
+						<span class="ft_think"><b>당신</b></span>을 생각하는 커피<br/>
+					</div>
+					<div class="btn_viewmore"><a href="#" class="animated-button global">View More</a> </div>
+				</div>
+			</div>
+
+		</div>
+		
+<!------social impact-------->
+		<div class="contents social_Impact">
+			<h3 class="sub_title ">Social Project Coffee</h3>
+			<div class="s_i row01">
+				<div class="social_project c">
+					<a href="#"><span>colombia</span><img src="images/social/social_project/rebuild/housing-restoration.jpg" alt="주택재건축사업"></a>
+				</div>
+				<div class="social_project e">
+					<a href="#"><span>ethiopia</span><img src="images/social/social_project/woman/04.jpg" alt="여성위생용품프로젝트"></a>
+				</div>
+				<div class="social_project n">
+					<a href="#"><span>nicaragua</span><img src="images/social/social_project/water/image-asset.jpeg" alt="식수지원사업"></a>
+				</div>
+			</div>
+			<div class="s_i row02">
+				<div class="si_text house">
+					<h6>주택재건축</h6><p>띵크커피는 지역 커피 협동조합과 파트너관계를 맺어 벽돌, 금속, 콘크리트 등 건설자재를 구매하여 농부들과 함께 주택을 재건축하는 것을 도왔습니다.</p>
+					<div class="btn_viewmore"><a href="#" class="animated-button global">View More</a> </div>
+				</div>
+				<div class="si_text women">
+					<h6>여성 위생용품 프로젝트</h6><p>여성들을 위해 재사용이 가능한 여성위생용품을 만들도록 교육하고 NGO Days for Girls와 제휴를 맺어 위생 용품을 안전하게 공급하였습니다.</p>
+					<div class="btn_viewmore"><a href="#" class="animated-button global">View More</a> </div>
+				</div>
+				<div class="si_text water">
+					<h6>식수지원사업</h6><p>지역 사회에 우물을 개간하고 펌프를 설치할 수 있게 도와 커피농가들이 모두 깨끗한 물을 사용할 수 있게 식수 지원 프로젝트를 진행해오고 있습니다.</p>
+					<div class="btn_viewmore"><a href="#" class="animated-button global">View More</a> </div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+
+		<div class="l_and_m">
+<!------location-------->
+			<div class="contents location">
+				<img src="./images/etc/51_1.jpg" alt="location" />
+				<h3>OUR LOCATIONS</h3>
+				<span>전국의 띵크커피 매장을 확인해보세요</span>
+				<div class="btn"><a href="#"> 매장 찾기</a></div>
+
+			</div>
+<!------menu-------->
+			<div class="contents menu">
+				<img src="images/menu/01_1.jpg" alt="menu" />
+				<h3>fresh coffee</h3>
+				<span>신선한 유기농 공정무역 원두를 사용하여 추출한 커피메뉴</span>
+				
+			</div>
+		</div>
+
+
+<!------sns------->
+		<div class="contents sns">
+			<h3 class="sub_title ">Follow Us <span class="border_bottom">@thinkcoffeekr</span></h3>
+			<div class="sns_icon">
+				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+				<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+				<a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+			</div>
+			<div class="instagram">
+				<img src="http://placehold.it/250x300" alt="인스타그램" /> 
+				<img src="http://placehold.it/250x300" alt="인스타그램" /> 
+				<img src="http://placehold.it/250x300" alt="인스타그램" /> 
+				<img src="http://placehold.it/250x300" alt="인스타그램" /> 
+				<img src="http://placehold.it/250x300" alt="인스타그램" /> 
+			</div>
+		</div>
+	</div><!--#container end-->
+</div><!--#wrap end-->
+<!------footer-------->
+	<footer>
+		<a href="#"><img src="images/logo/think-linear.png" alt="footer_logo"></a>
+		<div class="footer_aside">
+			<div class="aside locations"></div>
+			<div class="aside sitemap"></div>
+			<div class="aside tcny">
+				<a href="https://www.thinkcoffee.com/"></a>
+			</div>
+		</div>
+		
+		<div class="footer_info">
+			<p>(주)띵크커피코리아 대표: 박순원 사업자등록번호: 101-86-64830</p> 
+			<p>서울시 종로구 율곡로 6, A-102 (중학동, 트윈트리) </p>
+			<p>TEL: 02-6016-6860 FAX: 02-6016-6861</p>
+			<p>CONTACT US : admin.co.kr</p>
+			<p>COPYRIGHT ⓒ2019 think coffee KOREA ALL RIGHTS RESERVED</p>
+		</div>
+		
+	</footer>
+
+
+
+
+
+</body>
+</html>

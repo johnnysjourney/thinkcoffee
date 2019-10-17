@@ -1,0 +1,519 @@
+//@font-face { font-family: 'OTEnjoystoriesBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans&display=swap');
+@font-face { font-family: 'S-CoreDream-2ExtraLight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff'); font-weight: normal; font-style: normal; }
+	* { margin: 0;	padding:0; box-sizing: border-box;	}
+	body { 
+		font-family: 'Nunito Sans','S-CoreDream-2ExtraLight', sans-serif;
+		font-size: 0.9vw;
+		width:100%; }
+	.wrap { min-width:1200px; margin:0px auto; }
+/*------------------------ HEADER -----------------------------------*/
+	header {
+		//margin:20px; 
+		border:1px solid blue; 
+		width:100%;
+		height: 100%;
+		padding-top:20px;
+	
+	}
+/*---------------------MAIN MENU------------------------------------*/
+	#main{
+		width:100%;
+		//height:58px;
+		text-align:center;
+		margin:0px auto;
+		position:fixed;
+		z-index:9999;
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 0.8vw;
+		//text-transform: uppercase; 
+		color: white;
+	}
+
+	div#main_logo { 
+		margin-left:120px; 
+		margin-top: 20px;
+		width:10%; height:100%; 
+		//border:1px solid red; 
+		//position: absolute;
+		float: left;
+	}
+	div#main_logo .circle { width: 40%; height:40%;}
+	div#main_logo .square { width: 80%; float: left; //padding-top:10px;}
+
+	#nav {
+		text-align: right;
+		//border:1px solid red;
+		padding: 0px 100px 0px 100px; 
+
+	}
+	#nav a{	
+		padding: 25px 20px 25px 20px;
+		//border: 1px solid red; 
+		text-decoration: none; 
+		color: #fff; 
+		//font-size: 0.7vw;
+		font-weight: bold;
+		letter-spacing:1px;	
+	}
+	.main_menu>a:hover {
+		color:#97c0e6;
+	}
+	#nav li { 
+		position:relative;
+		//border: 1px solid green; 
+		display: inline-block; 
+		list-style: none;
+		padding: 20px 0px;
+		//width:200px;
+	}
+	/*----ADD CLASS-*/
+	.navBg {
+		background: white;
+		-webkit-transition:background 0.3s;
+		-moz-transition:background 0.3s;
+		-o-transition:background 0.3s;
+		transition:background 0.3s;
+	}
+
+/*------------------------ SLIDER -----------------------------------*/
+
+	div.slider {
+		padding-top: 35%;
+		//border:1px solid black;
+		background: url("./images/slide/02_1.jpg") no-repeat;
+		background-size: cover;
+		//background-position: ;
+
+	}
+
+		/*div.img img { 
+			z-index: -100;
+			//position: absolute; 
+			top: 0; 
+			left: 0; 
+			max-width: 100%; 
+			height: auto; 
+
+			-webkit-transform: translate(-50%,-50%); 
+			-ms-transform: translate(-50%,-50%); 
+			transform: translate(-50%,-50%); 
+			border:2px solid black;
+		}	
+		#fade_img {
+			//position:fixed;
+			z-index:-100;
+			top:0;
+			left:0;
+			//background-color:black;
+			//opacity: 0.8;
+			height: 0;
+			overflow: hidden;
+			padding-top: 56.26%;
+
+		}
+		#fade_img img.bgfade{
+			position:absolute;
+			top:0;
+			//display:none;
+			width:100%;
+			height:650px;
+			z-index:-99;
+			opacity: .83;
+			overflow: hidden;
+			//padding-bottom: 56.26%; */
+			
+	}
+
+/*------------------------ CONTAINER -----------------------------------*/
+	div#container {
+
+	}
+/*------------------------ SLOGAN -----------------------------------*/
+	div.js {
+		//padding-bottom: 250px;
+		//background: url("./images/skyline/ny_skyline7_1.png") no-repeat top;
+		background-size: 100% 100%;
+	}
+	div.slogan_text {
+		padding: 200px 0px;
+		//width: 55%;
+		font-size: 1.2vw;
+		margin : 0px auto;
+		text-align: left;
+		line-height: 1.6;
+		background-color: rgba(255,255,255,0.8);
+	}
+	div.slogan_text p {
+		width: 55%;
+		margin: 0 auto;
+		letter-spacing: 1.5px;
+	}
+	p.jason {
+		font-size: 1vw;
+		text-align: left;
+		letter-spacing: 1.5px;
+	}
+	div.bg_text {display:none;}
+	div.slogan {
+		//position:relative;
+		//border:2px solid blue;
+	} 
+	div.slogan-parallex {
+		//margin-top:100px;
+		position:relative;
+		background: linear-gradient(to bottom, rgba(0,0,0,0.5) 70%,rgba(255,255,255,0.1) 100%), url("./images/fairtrade/16.jpg") no-repeat fixed center;
+		background-size:100%;
+		padding-top: 20%;
+		//border:1px solid black;
+		overflow: hidden; 
+	}
+	/*div.bg_color {
+		position: absolute;
+		top:0;
+		background: rgba(0, 0, 0, 0.4);
+		padding-top: 30%;
+		width:100%;
+	}*/
+	div.slogan-parallex>h3 {
+		position:absolute;
+		top:10%;
+		left:25%;
+		width:55%;
+		padding:100px;
+		color: #fff;
+		text-align: center;
+		text-shadow: 1px 1px #333;
+		font-size: 1vw;
+		//border:1px solid white;
+		letter-spacing: 0.3em;
+		line-height: 2;
+	}
+/*-------------------FAIR TRADE COFFEE------------------------------------------------------*/	
+	div.fair {
+		//border:1px solid red;
+		width:80%;
+		margin:0px auto;
+		padding: 200px 0px;
+	}
+	h3.sub_title {
+		font-size: 1.5vw;
+		//border:1px solid blue;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.1vw;
+		text-align: center;
+	}
+	.ft {
+		//border:1px solid green;
+		paddig
+		//height: 600px;
+		display:flex;
+		
+	}
+	.ft_article {
+		//height:500px;
+		flex:1;
+		//border: 2px solid orange;
+		display:block;
+		clear: both;
+	}
+
+
+	/*---------------text-------------------------------*/
+	.ft_article.ft_2 {
+		background: rgba(139,184,232,0.1);
+	}
+	.ft_think { color: #8bb8e8; }
+	
+	.part1 { text-align: right; font-size: 1.3vw; padding: 100px 50px 20px 0px; }
+	.part2  {
+		font-size: 1vw;
+		margin-left: 35%;
+		//border: 1px solid blue;
+		//width: 55%;
+		padding:0px 50px 0px 0px;
+		text-align: justify;
+		letter-spacing: 0.1vw; 
+	
+	}
+	.part3 {
+		font-size: 1.3vw;
+		font-style: italic;
+		padding: 50px 0px 20px 0px;
+		text-align: center;
+	}
+	.part4 {
+		text-align: center;
+		letter-spacing: 1px; 
+		line-height: 1.5vw; 
+		font-size: 1.2vw;
+		padding-bottom: 50px;
+		letter-spacing: 0.1vw; 
+	}
+	.part4>.ft_think {
+		font-style: italic;
+		font-weight: bold;	
+		letter-spacing: 0.1vw; 
+	}
+	/*---------btn---------*/
+	a.animated-button,a.animated-button:link, a.animated-button:visited {
+		position: relative;
+		display: block;
+		margin: 30px auto 0;
+		padding: 14px 15px;
+		color: #fff;
+		font-size:0.8vw;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		overflow: hidden;
+		letter-spacing: .08em;
+		width:150px;
+		color: #fff;cursor: pointer;border: 2px solid #8bb8e8;background: #8bb8e8;
+		-webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		-moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		-o-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	}
+	a.animated-button:link:hover,a.animated-button:visited:hover,a.animated-button:hover {
+		color: #8bb8e8 !important;
+		background-color: transparent;		
+	}
+
+
+	/*-------------img-----------------*/
+	.ft_img {
+		//display: none;
+		width:70%;
+		text-align: left;
+	}
+	.ft_img.img1 {
+		width: 70%;
+		padding: 70px 0px 50px 0px;
+	}
+	.ft_img.img2 {
+		//width: 65%;
+		padding-left:100px;
+
+	}
+	.ft_img.img3 {
+		position: absolute;
+		//display:none;
+		float:left;
+		padding-top:100px;
+		left:40%;
+		width:17%;
+		//height:100%;
+	}
+	.fairTrade {
+		
+		
+	}
+
+	
+/*----------------------SOCIAL IMPACT---------------------------------------------*/
+	div.social_Impact {
+		border:1px solid pink;
+		//clear: both;
+
+	}
+	div.s_i {
+		//border: 2px solid green;
+		background: rgba(139,184,232,0.1);
+		width: 80%;
+		margin:0 auto;
+		text-align: center;
+		display: flex;
+	}
+	div.s_i.row01 {
+		padding:100px 50px 0px 50px;
+
+		
+	}
+	div.s_i.row02 {
+		padding:0px 50px;
+
+	}
+	
+	div.si_text>h6 {font-size:1.1vw; padding: 30px 0px;}
+
+	div.si_text p {width:65%; margin:0 auto;}
+
+	div.social_project, div.si_text{
+		flex:1;
+		//border:1px solid red;
+	}
+	div.social_project {
+		margin: 0px 5px;
+		padding: 200px 0px;
+
+	}
+	 div.si_text{
+		margin: 0px 50px;
+		line-height: 1.6vw;
+		letter-spacing: 0.1vw;
+	 }
+
+	div.si_text {background: #fff;}
+	.social_project span {
+
+		text-transform: uppercase;
+		font-size:2vw;
+		bottom:-20;
+		//color:#000;
+		font-weight: bold;
+		//vertical-align: bottom;
+		float:left;
+		position:absolute;
+
+	}
+	div.social_project:hover {
+		-webkit-filter: grayscale(0%);
+ 		-moz-filter: grayscale(0%);
+  		-ms-filter: grayscale(0%);
+  		-o-filter: grayscale(0%);
+ 		 filter: grayscale(0%);
+ 		 -webkit-transition: all 0.4s ;
+		-moz-transition: all 0.4s;
+		-o-transition: all 0.4s ;
+		transition: all 0.4s;
+		color:#8bb8e8;
+	}
+	div.c { 
+		background:url("./images/social/social_project/rebuild/housing-restoration.jpg") no-repeat;
+		background-size: cover;
+		background-position: center center; 
+	 	-webkit-filter: grayscale(100%); 
+    	filter: grayscale(100%);} 
+	div.e { 
+		background: url("images/social/social_project/woman/04.jpg") no-repeat;
+		background-size: cover;
+		background-position: center center; 
+		-webkit-filter: grayscale(100%);
+ 		-moz-filter: grayscale(100%);
+  		-ms-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+ 		 filter: grayscale(100%);
+ 		//filter: url(grayscale.svg);
+  		//filter: gray; } 
+	div.n { 
+		background: url("images/social/social_project/water/image-asset.jpeg" ) no-repeat;
+		background-size: cover;
+		background-position: center center; 
+		-webkit-filter: grayscale(100%);
+ 		-moz-filter: grayscale(100%);
+  		-ms-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+ 		 filter: grayscale(100%);
+ 		//filter: url(grayscale.svg);
+  		//filter: gray;} 
+	div.social_project span {
+		//display: none;
+	}
+
+	div.social_project>a {
+		color: white;
+		text-decoration: none;
+		text-shadow: 2px 2px #333;
+	}
+	div.social_project img {
+		//width:100%;
+		
+		//padding: 0px 20px;
+		display:none;
+	}
+	
+
+	div.l_and_m { display: flex; height: 500px; width:80%; margin:100px auto;}
+	//div.l_and_m h3 { font-family: 'Nunito Sans', sans-serif; }
+/*----------------------LOACTION---------------------------------------------*/
+
+	div.location, div.menu {
+		//border:1px solid red;
+		//padding : 100px 0px;
+		margin:0px 10px;
+		
+		//width:;
+	}
+	div.location {
+		//border:2px solid #97c0e6;
+		margin:50px 0px 0px 0px;
+		//background: url("images/etc/51_1.jpg") no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	div.location img {
+		width:70%;
+	}
+/*----------------------MENU---------------------------------------------*/
+	div.menu {
+		border:1px solid black;
+		//background: url("images/menu/01_1.jpg") no-repeat;
+		//background-size: cover;
+		//background-position: center center;
+		//width: 80%;
+	}
+	div.menu img {
+		width:100%;
+		ight:90%;
+	}
+/*----------------------SNS---------------------------------------------*/
+	div.sns {
+		margin:0 auto;
+		width:80%;
+		padding: 100px 0px;
+	}
+	div.sns>span {
+		//font-family: 'Nunito Sans', sans-serif;
+		text-align: center;
+		display: block;
+		//border: 1px solid green;
+		padding-bottom: 50px;
+	}
+	div.sns span.border_bottom { padding-bottom: 5px; border-bottom: 1px solid grey;}
+	div.sns_icon {
+		text-align: center;
+		padding-bottom: : 100px;
+	}
+	div.sns_icon>a {
+		//display: block;
+		color: black;
+		font-size: 1vw;
+		padding: 10px;
+		text-align: center;
+	}
+	div.instagram {
+		//border:1px solid red;
+		padding:75px 0px 100px 0px;
+		display: flex;
+	}
+	div.instagram>img {
+		padding: 10px;
+		//flex:1;
+		text-align: center;
+		margin: 0 auto;
+	}
+/*----------------------FOOTER---------------------------------------------*/
+footer { padding: 100px; border:1px solid blue;}
+div.footer_info { 
+	font-size: 0.8vw; 
+	border:1px solid green;
+	margin-top : 50px;
+	line-height: 1.6vw;
+	//display: inline-block;
+}
+div.footer_aside {
+	//float:right;
+	display: flex;
+}
+div.aside {
+	flex:1;
+	border:1px solid blue;
+	width:30%;
+	height: 300px;
+	//top:0;
+	margin:20px;
+}
