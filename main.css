@@ -82,7 +82,7 @@
 	div.slider {
 		padding-top: 35%;
 		//border:1px solid black;
-		background: url("./images/slide/02_1.jpg") no-repeat;
+		background: url("./images/06.jpg") no-repeat;
 		background-size: cover;
 		//background-position: ;
 
@@ -132,8 +132,6 @@
 	}
 /*------------------------ SLOGAN -----------------------------------*/
 	div.js {
-		//padding-bottom: 250px;
-		//background: url("./images/skyline/ny_skyline7_1.png") no-repeat top;
 		background-size: 100% 100%;
 	}
 	div.slogan_text {
@@ -163,7 +161,7 @@
 	div.slogan-parallex {
 		//margin-top:100px;
 		position:relative;
-		background: linear-gradient(to bottom, rgba(0,0,0,0.5) 70%,rgba(255,255,255,0.1) 100%), url("./images/fairtrade/16.jpg") no-repeat fixed center;
+		background: linear-gradient(to bottom, rgba(0,0,0,0.5) 70%,rgba(255,255,255,0.1) 100%), url("./images/tkkr/16.jpg") no-repeat fixed center;
 		background-size:100%;
 		padding-top: 20%;
 		//border:1px solid black;
@@ -383,13 +381,13 @@
 		color:#8bb8e8;
 	}
 	div.c { 
-		background:url("./images/social/social_project/rebuild/housing-restoration.jpg") no-repeat;
+		background:url("./images/tkkr/housing-restoration.jpg") no-repeat;
 		background-size: cover;
 		background-position: center center; 
 	 	-webkit-filter: grayscale(100%); 
     	filter: grayscale(100%);} 
 	div.e { 
-		background: url("images/social/social_project/woman/04.jpg") no-repeat;
+		background: url("images/social/tkkr/04.jpg") no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
@@ -400,7 +398,7 @@
  		//filter: url(grayscale.svg);
   		//filter: gray; } 
 	div.n { 
-		background: url("images/social/social_project/water/image-asset.jpeg" ) no-repeat;
+		background: url("images/tkkr/image-asset.jpeg" ) no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
@@ -441,7 +439,7 @@
 	div.location {
 		//border:2px solid #97c0e6;
 		margin:50px 0px 0px 0px;
-		//background: url("images/etc/51_1.jpg") no-repeat;
+		//background: url("images/tkkr/51_1.jpg") no-repeat;
 		background-size: cover;
 		background-position: center;
 	}
@@ -451,7 +449,7 @@
 /*----------------------MENU---------------------------------------------*/
 	div.menu {
 		border:1px solid black;
-		//background: url("images/menu/01_1.jpg") no-repeat;
+		//background: url("images/tkkr/01_1.jpg") no-repeat;
 		//background-size: cover;
 		//background-position: center center;
 		//width: 80%;
