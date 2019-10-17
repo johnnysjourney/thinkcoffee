@@ -387,7 +387,7 @@
 	 	-webkit-filter: grayscale(100%); 
     	filter: grayscale(100%);} 
 	div.e { 
-		background: url("images/tkkr/04.jpg") no-repeat;
+		background: url("./images/tkkr/04.jpg") no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
@@ -398,7 +398,7 @@
  		//filter: url(grayscale.svg);
   		//filter: gray; } 
 	div.n { 
-		background: url("images/tkkr/image-asset.jpeg" ) no-repeat;
+		background: url("./images/tkkr/image-asset.jpeg" ) no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
