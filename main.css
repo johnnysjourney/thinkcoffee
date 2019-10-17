@@ -390,14 +390,14 @@
 		color:#8bb8e8;
 	}
 	div.c { 
-		background:url("./images/social/social_project/rebuild/housing-restoration.jpg") no-repeat;
+		background:url("./images/tkkr/housing-restoration.jpg") no-repeat;
 		background-size: cover;
 		background-position: center center; 
 	 	-webkit-filter: grayscale(100%); 
     	filter: grayscale(100%);} 
 	div.e { 
 		padding:100px 50px 0px 50px;
-		background: url("images/social/social_project/woman/04.jpg") no-repeat;
+		background: url("./images/tkkr/04.jpg") no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
@@ -408,7 +408,7 @@
  		//filter: url(grayscale.svg);
   		//filter: gray; } 
 	div.n { 
-		background: url("images/social/social_project/water/image-asset.jpeg" ) no-repeat;
+		background: url("./images/tkkr/image-asset.jpeg" ) no-repeat;
 		background-size: cover;
 		background-position: center center; 
 		-webkit-filter: grayscale(100%);
