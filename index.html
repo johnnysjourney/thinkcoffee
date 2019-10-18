@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>띵크커피 코리아 Think Coffee Korea</title>
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
+<!----image slider------>
 <link rel="stylesheet" href="./main.css">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="./jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
@@ -14,13 +14,19 @@
 <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
 
 
-
 <script>
 	$(document).ready(function(){
-	
-	$('.main_slider').sss();
+    	/*
+   		 $('.slider').bxSlider({
+   			auto: true,
+    		speed: 500,
+    		mode: 'fade'
+    		//adaptiveHeight:true
+		
+    	});*/
+    	$(".main_slider").sss();
     	$(".square").hide();
-		$(window).scroll(function(){	
+		$(window).scroll(function(){
   		var scroll = $(window).scrollTop();
 	  	if (scroll > 150) {
 	    	$("#main").addClass('navBg');
@@ -211,16 +217,16 @@
 		<div class="contents sns">
 			<h3 class="sub_title ">Follow Us <span class="border_bottom"><a href="https://www.instagram.com/thinkcoffeekr/">@thinkcoffeekr</a></span></h3>
 			<div class="sns_icon">
-				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-				<a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-				<a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+				<a href="#" class="sns_link"><i class="fab fa-instagram fa-2x"></i></a>
+				<a href="#" class="sns_link"><i class="fab fa-facebook-square fa-2x"></i></a>
+				<a href="#" class="sns_link"><i class="fab fa-twitter-square fa-2x"></i></a>
 			</div>
 			<div class="instagram">
-				<img src="./images/tkkr/insta/01.jpg" alt="인스타그램" /> 
-				<img src="./images/tkkr/insta/02.jpg" alt="인스타그램" /> 
-				<img src="./images/tkkr/insta/03.jpg" alt="인스타그램" /> 
-				<img src="./images/tkkr/insta/04.jpg" alt="인스타그램" /> 
-				<img src="./images/tkkr/insta/05.jpg" alt="인스타그램" /> 
+				<a href="#"><img src="./images/tkkr/insta/01.jpg" alt="인스타그램" /> </a>
+				<a href="#"><img src="./images/tkkr/insta/02.jpg" alt="인스타그램" /> </a>
+				<a href="#"><img src="./images/tkkr/insta/03.jpg" alt="인스타그램" /> </a>
+				<a href="#"><img src="./images/tkkr/insta/04.jpg" alt="인스타그램" /> </a>
+				<a href="#"><img src="./images/tkkr/insta/05.jpg" alt="인스타그램" /> </a>
 			</div>
 
 
@@ -230,7 +236,7 @@
 <!------footer-------->
 	<footer>
 		<div class="footer_container">
-			<a href="#"><img src="images/tkkr/logo/think-linear.png" alt="footer_logo"></a></br>
+			<a href="#"><img src="images/logo/think-linear.png" alt="footer_logo"></a></br>
 			<div class="footer_aside">
 				<div class="footeraside section01">
 					<h3 class="footer_title">우리의 프로젝트</h3>

@@ -509,7 +509,7 @@
 		//border: 1px solid red;
 	}
 	div.sns a {text-decoration: none; color:#5c462b;}
-	div.sns a:hover, div.sns_icon>a:hover {
+	div.sns>.sns_link:hover, div.sns_icon>.sns_link:hover {
 		color:#8bb8e8;
 		-webkit-transition: all 0.4s ;
 		-moz-transition: all 0.4s;
@@ -522,7 +522,7 @@
 		text-align: center;
 		padding-top: 50px;
 	}
-	div.sns_icon>a {
+	div.sns_icon>.sns_link {
 		
 		color:#5c462b;
 		font-size: 1vw;
@@ -534,12 +534,12 @@
 		padding:75px 0px 100px 0px;
 		display: flex;
 	}
-	div.instagram>img {
+	div.instagram img {
 		padding: 10px;
 		flex:1;
 		text-align: center;
 		margin: 0 auto;
-		width:10%;
+		width:90%;
 	}
 /*----------------------FOOTER---------------------------------------------*/
 footer {
