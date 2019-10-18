@@ -117,7 +117,7 @@
 			//padding-bottom: 56.26%; 
 			
 	}*/
-.main_slider img {display:none;}
+	.main_slider img {display:none;}
 	.main_slider {
 		background: url(./images/tkkr/slider/sss_01.jpg) no-repeat;
 		background-size: cover;
